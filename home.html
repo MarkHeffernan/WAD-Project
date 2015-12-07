@@ -44,12 +44,8 @@
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-				</br></br>
-					<p class="text-justify">Irelands largest premier retail and leisure destination. Comprising of over 100 shops both exclusive and high street stores.</p>
-					<p class="text-justify">Anchored by Irelands only House of Fraser department store and also exclusive to southern Ireland is Harvey Nichols, Hamleys, Hollister, Massimo Dutti and Jamies Italian!</p>
-					<p class="text-justify">There are over 40 restaurants and coffee shops to choose from, a cinema complex, a 200 seat theatre and a bar!</p>
-					<p class="text-justify">Dundrum is situated 5km south of Dublin City Centre and is serviced by the light rail Luas service on the green line. Stops for Dundrum at Balally.</p>
+				<div class="col-md-6" id="info1">
+				
 				</div>
 				
 				<div class class="col-md-2" class="row padding">
@@ -73,23 +69,23 @@
 			
 			<div class= "col-md-3">
 			<ul>
-			<li class ="item"><img src="images/argos.png" class="img-circle"height="200px" width="200px"></li>
-			<li class ="item"><img src="images/schuh.png" class="img-circle"height="200px" width="200px"></li>
-			<li class ="item"><img src="images/jd.jpg" class="img-circle" height="200px" width="200px"></li>
+			<li class ="item"><img src="argos.png" class="img-circle"height="200px" width="200px"></li>
+			<li class ="item"><img src="schuh.png" class="img-circle"height="200px" width="200px"></li>
+			<li class ="item"><img src="jd.jpg" class="img-circle" height="200px" width="200px"></li>
 			</ul>
 		</div>
 		<div class="col-md-3">
 		<ul>
-			<li class ="item"><img src="images/elverys.jpeg" class="img-circle"height="200px" width="200px"><li>
-			<li class ="item"><img src="images/h&m.png" class="img-circle"height="200px" width="200px"></li>
-			<li class ="item"><img src="images/uo.jpg" class="img-circle"height="200px" width="200px"></li>
+			<li class ="item"><img src="elverys.jpeg" class="img-circle"height="200px" width="200px"><li>
+			<li class ="item"><img src="h&m.png" class="img-circle"height="200px" width="200px"></li>
+			<li class ="item"><img src="uo.jpg" class="img-circle"height="200px" width="200px"></li>
 		</div>
 		
 		<div class="col-md-3">
 		<ul>
-			<li class ="item"><img src="images/bershka.jpg" class="img-circle"height="200px" width="200px"></li>
-			<li class ="item"><img src="images/3logo.jpg" class="img-circle"height="200px" width="200px"></li>
-			<li class ="item"><img src="images/HMV.gif" class="img-circle"height="200px" width="200px">HMV</li>
+			<li class ="item"><img src="bershka.jpg" class="img-circle"height="200px" width="200px"></li>
+			<li class ="item"><img src="3logo.jpg" class="img-circle"height="200px" width="200px"></li>
+			<li class ="item"><img src="HMV.png" class="img-circle"height="200px" width="200px">HMV</li>
 		</div>
 		<div class="col-md-3">
 		<ul>
@@ -125,6 +121,13 @@
 			}
 			});
 			});
+			
+			var one = '{"info":"Irelands largest premier retail and leisure destination. Comprising of over 100 shops both exclusive and high street stores.Anchored by Irelands only House of Fraser department store and also exclusive to southern Ireland is Harvey Nichols, Hamleys, Hollister, Massimo Dutti and Jamies Italian! There are over 40 restaurants and coffee shops to choose from, a cinema complex, a 200 seat theatre and a bar! Dundrum is situated 5km south of Dublin City Centre and is serviced by the light rail Luas service on the green line. Stops for Dundrum at Balally."}';
+
+		var obj = JSON.parse(one);
+
+		document.getElementById("info1").innerHTML =
+	"<br>"+	obj.info + "<br>";
 		</script>
 		
 		
