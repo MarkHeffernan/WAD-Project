@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<CENTRE>
+   <SHOP>
+		<NAME>Bershka</NAME>
+		<LOCATION>Level 2 Unit 25</LOCATION>
+	</SHOP>
+   <SHOP>
+		<NAME>Best Menswear</NAME>
+		<LOCATION>Level 1 Unit 19</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>BOSS</NAME>
+		<LOCATION>Level 1 Unit 32</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Calvin Klein</NAME>
+		<LOCATION>Galley Mall</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Clarks</NAME>
+		<LOCATION>Level 1 Unit 18</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Cycle Surgery</NAME>
+		<LOCATION>At Snow+Rock Level 3 Unit 32</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Diesel</NAME>
+		<LOCATION>Level 2, unit 2</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Dune</NAME>
+		<LOCATION>Level 2, Unit 28</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Elverys Sports</NAME>
+		<LOCATION>Dundrum South. Level 3 Unit 31</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Ernest Jones</NAME>
+		<LOCATION>Level 1 Unit 27</LOCATION>
+	</SHOP>
+	<SHOP>
+		<NAME>Gap</NAME>
+		<LOCATION>Level 22, Unit 22</LOCATION>
+	</SHOP>
+</CENTRE>
